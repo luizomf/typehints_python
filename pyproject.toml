@@ -1,0 +1,72 @@
+[project]
+name = "typehints_python"
+version = "0.0.1"
+description = "typehints_python"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Luiz Otávio" }]
+requires-python = ">=3.13"
+dependencies = ["rich>=14.1.0"]
+
+[project.urls]
+Homepage = "https://github.com/luizomf/typehints_python"
+Documentation = "https://github.com/luizomf/typehints_python"
+Repository = "https://github.com/luizomf/typehints_python.git"
+Issues = "https://github.com/luizomf/typehints_python/issues"
+
+[project.optional-dependencies]
+dev = ["ruff", "pyright", "pytest", "pytest-xdist"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+fix = true
+show-fixes = true
+indent-width = 4
+exclude = ["venv", ".venv", "env", ".env", "node_modules", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+preview = true
+ignore = ['D', 'CPY001', 'T201', 'FURB118', 'UP028']
+fixable = ["ALL"]
+unfixable = ['D']
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["ANN201", "S101"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.ruff.lint.isort]
+known-first-party = ["typehints_python"]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+pythonVersion = "3.13"
+ignore = []
+include = []
+exclude = ["**/.venv"]
+venv = ".venv"
+venvPath = "."
+executionEnvironments = [{ root = "." }]
+useLibraryCodeForTypes = true
+
+[tool.pytest.ini_options]
+addopts = "-s --color=yes --tb=short"
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools]
+
+package-dir = { "" = "." }

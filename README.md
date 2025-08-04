@@ -1,6 +1,6 @@
 # Curso de Type Hints no Python (do Básico ao Avançado)
 
-[![YouTube Playlist](https://img.shields.io/badge/YouTube-Playlist_Completa-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PLbIBj8vQhvm04EuddtleOAoEmfU9vwQlN)
+[![YouTube Playlist](https://img.shields.io/badge/YouTube-Playlist_Completa-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/playlist?list=PLbIBj8vQhvm04EuddtleOAoEmfU9vwQlN)&nbsp;&nbsp;
 [![Autor](https://img.shields.io/badge/Autor-Otávio_Miranda-blue?style=for-the-badge)](https://www.otaviomiranda.com.br/)
 
 PARE de escrever Python sem tipos! Este repositório contém todo o material de

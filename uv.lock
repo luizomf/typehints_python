@@ -167,7 +167,7 @@ wheels = [
 ]
 
 [[package]]
-name = "typehints-pg"
+name = "typehints-python"
 version = "0.0.1"
 source = { editable = "." }
 dependencies = [

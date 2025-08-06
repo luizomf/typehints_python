@@ -25,7 +25,18 @@ exclude = ["venv", ".venv", "env", ".env", "node_modules", "__pycache__"]
 [tool.ruff.lint]
 select = ["ALL"]
 preview = true
-ignore = ['D', 'CPY001', 'T201', 'FURB118', 'UP028']
+ignore = [
+  'D',
+  'CPY001',
+  'T201',
+  'FURB118',
+  'UP028',
+  'ERA001',
+  'FBT001',
+  'FBT002',
+  'FBT003',
+  'S101',
+]
 fixable = ["ALL"]
 unfixable = ['D']
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"

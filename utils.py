@@ -10,8 +10,8 @@ rprint = console.log
 # O '...' representa qualquer coisa
 def make_print(style: str) -> Callable[..., None]:
     # closure, lembra?
-    def fake_print(*values: object, **kwargs: object) -> None:
-        return console.log(*values, kwargs, style=style)
+    def fake_print(*values: object) -> None:
+        return console.log(*values, style=style)
 
     return fake_print
 

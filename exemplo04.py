@@ -33,7 +33,9 @@ sep_print()
 
 
 def with_callback(
-    x: float, y: float, callback: Callable[[str, str, bool], None]
+    x: float,
+    y: float,
+    callback: Callable[[str, str, bool], None],
 ) -> float:
     result = x + y
     callback(f"{result = }", "Another value", True)

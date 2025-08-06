@@ -14,9 +14,6 @@ Documentation = "https://github.com/luizomf/typehints_python"
 Repository = "https://github.com/luizomf/typehints_python.git"
 Issues = "https://github.com/luizomf/typehints_python/issues"
 
-[project.optional-dependencies]
-dev = ["ruff", "pyright", "pytest", "pytest-xdist"]
-
 [tool.ruff]
 line-length = 88
 target-version = "py313"
@@ -42,7 +39,8 @@ indent-style = "space"
 line-ending = "lf"
 
 [tool.ruff.lint.isort]
-known-first-party = ["typehints_python"]
+known-first-party = ["typehints_pg"]
+
 
 [tool.pyright]
 typeCheckingMode = "strict"

@@ -1,0 +1,58 @@
+[
+  {
+    "firstname": "Carlos",
+    "lastname": "Souza",
+    "email": "carlos.souza@example.com",
+    "age": 45
+  },
+  {
+    "firstname": "Roberto",
+    "lastname": "Lima",
+    "email": "roberto.lima@example.com",
+    "age": "trinta"
+  },
+  {
+    "firstname": "Ana",
+    "lastname": "Silva",
+    "email": "ana.silva@example.org",
+    "age": 27,
+    "extra": "Key extra"
+  },
+  {
+    "firstname": "Julia",
+    "lastname": "Costa"
+  },
+  {
+    "firstname": "Luiz",
+    "lastname": "Miranda",
+    "email": "luiz.miranda@example.com",
+    "age": 18
+  },
+  {
+    "username": "random_user",
+    "contact": "contact@example.com"
+  },
+  {
+    "firstname": "João",
+    "lastname": "Almeida",
+    "email": "joao.almeida@example.com",
+    "age": 22
+  },
+  {
+    "firstname": "Fernanda",
+    "lastname": 123,
+    "email": "fernanda@example.org",
+    "age": 28
+  },
+  {
+    "firstname": "Mariana",
+    "lastname": "Oliveira",
+    "email": "mariana.oliveira@example.net",
+    "age": 31
+  },
+  {
+    "firstname": "Mateus",
+    "lastname": "Pereira",
+    "age": 19
+  }
+]

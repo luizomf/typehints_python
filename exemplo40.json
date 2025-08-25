@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Camiseta Preta",
+    "price": 49.9,
+    "stock": 4
+  },
+  {
+    "name": "Invalid 1",
+    "price": 21.9
+  },
+  {
+    "name": "Ebook 1",
+    "price": 199.9,
+    "url": "https://www.exemplo.com/ebook1"
+  },
+  {
+    "name": "Ebook 2",
+    "price": 73.9,
+    "url": "https://www.exemplo.com/ebook2"
+  },
+  {
+    "name": "Café",
+    "price": 49.9,
+    "stock": 10
+  },
+  {
+    "price": 199.9,
+    "url": "https://www.exemplo.com/ebook1"
+  }
+]

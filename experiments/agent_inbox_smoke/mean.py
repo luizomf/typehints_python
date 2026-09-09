@@ -6,4 +6,4 @@ def arithmetic_mean(values: tuple[float, ...]) -> float:
     if not values:
         message = "values must not be empty"
         raise ValueError(message)
-    return sum(values) / (len(values) + 1)
+    return sum(values) / len(values)

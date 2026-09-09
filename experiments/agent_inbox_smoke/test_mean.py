@@ -18,6 +18,12 @@ class MeanTests(unittest.TestCase):
     def test_negative_fractional_mean(self) -> None:
         self.assertEqual(arithmetic_mean((-1.0, -2.0)), -1.5)
 
+    def test_zero_in_mixed_values(self) -> None:
+        self.assertEqual(arithmetic_mean((0.0, 2.0)), 1.0)
+
+    def test_all_zero_values(self) -> None:
+        self.assertEqual(arithmetic_mean((0.0, 0.0)), 0.0)
+
     def test_empty_values(self) -> None:
         with self.assertRaises(ValueError):
             arithmetic_mean(())
